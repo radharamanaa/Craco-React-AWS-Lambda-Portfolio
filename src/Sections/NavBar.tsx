@@ -1,4 +1,4 @@
-import NavBarListItem from "../molecules/NavBarListItem";
+import NavBarListItem from "../atoms/NavBarListItem";
 
 const NavBar = () => {
   return (

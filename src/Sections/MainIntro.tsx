@@ -22,14 +22,14 @@ const MainIntro = () => {
               style={{ fontFamily: "Raleway" }}
             >
               I am a
-              <span className="text-purple-600"> Technical Architect</span> with
+              <span className="text-purple-700"> Technical Architect</span> with
               an AWS Certified Developer Certification, with experience in
               Designing architectures and developing web applications.Full-Stack
               Team Lead with expertise in Java, ReactJS, SQL &amp; JavaScript.
               <br />
               <br />
               With
-              <span className="text-purple-600">
+              <span className="text-purple-700">
                 {" "}
                 8+ years of experience
               </span>{" "}

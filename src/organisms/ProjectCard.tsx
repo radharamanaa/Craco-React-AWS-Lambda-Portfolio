@@ -1,8 +1,8 @@
 import React from "react";
 import { ProjectDetails } from "../data/projectsData";
 import "@fontsource/lato";
-import HeadingInProjects from "../molecules/HeadingInProjects";
-import SingleTechnologyInProjects from "../molecules/SingleTechnologyInProjects";
+import HeadingInProjects from "../atoms/HeadingInProjects";
+import SingleTechnologyInProjects from "../atoms/SingleTechnologyInProjects";
 import "@fontsource/roboto"; // Defaults to weight 400
 
 const ProjectCard: React.FC<{ project: ProjectDetails }> = ({ project }) => {

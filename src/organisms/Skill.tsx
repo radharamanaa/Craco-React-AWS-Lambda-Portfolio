@@ -1,5 +1,5 @@
 import React from "react";
-import Rating from "../molecules/Rating";
+import Rating from "../atoms/Rating";
 
 interface SkillProps {
   name: string;

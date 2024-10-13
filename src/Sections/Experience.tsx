@@ -1,5 +1,5 @@
 import allExperiences from "../data/experienceData";
-import HeadingForExperience from "../molecules/HeadingForExperience";
+import HeadingForExperience from "../atoms/HeadingForExperience";
 import ExperienceCard from "../organisms/ExperienceCard";
 const Experience = () => {
   return (
