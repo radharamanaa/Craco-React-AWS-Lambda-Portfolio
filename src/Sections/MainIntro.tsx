@@ -42,7 +42,7 @@ const MainIntro = () => {
         <div className="md:order-2 md:col-span-5">
           <div className="flex justify-center rounded-full">
             <img
-              src="https://abhijeet-portfolio-personal-build-bucket.s3.ap-south-1.amazonaws.com/public/Cropped+Professional+Pic-DuYJBgMJ.jpg"
+              src="https://abhijeet-portfolio-personal-build-bucket.s3.ap-south-1.amazonaws.com/public/Professional.jpeg"
               alt=""
               className="h-64 md:h-96 rounded-full"
             />
