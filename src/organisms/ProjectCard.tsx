@@ -4,11 +4,10 @@ import "@fontsource/lato";
 import HeadingInProjects from "../atoms/HeadingInProjects";
 import SingleTechnologyInProjects from "../atoms/SingleTechnologyInProjects";
 import "@fontsource/roboto"; // Defaults to weight 400
-import AppearOnceWrapper from "../atoms/AppearOnceWrapper";
 
 const ProjectCard: React.FC<{ project: ProjectDetails }> = ({ project }) => {
   return (
-    <AppearOnceWrapper>
+    <>
       <div className="max-w-6xl border grid grid-cols-1 md:grid-cols-[40%_60%] items-center justify-center bg-slate-100 shadow-lg shadow-slate-600 rounded-t-lg">
         <HeadingInProjects project={project} />
         <div className="flex flex-col border border-dashed border-slate-300 p-4">
@@ -42,7 +41,7 @@ const ProjectCard: React.FC<{ project: ProjectDetails }> = ({ project }) => {
           )}
         </div>
       </div>
-    </AppearOnceWrapper>
+    </>
   );
 };
 

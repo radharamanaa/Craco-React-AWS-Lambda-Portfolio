@@ -1,3 +1,11 @@
+let pythonSkill = {
+  name: "Python",
+  level: "Advanced",
+  icon: "",
+  rating: 5,
+  description: `Developed Fast API app which ingests log data in OpenSearch using Python. Developed Backend in Python which is a RAG based Chat bot application`,
+};
+
 let javaSkill = {
   name: "Java",
   level: "Expert",
@@ -89,6 +97,7 @@ let redisSkill = {
   Posess a good understanding of Redis concepts. I have Over 3+ years of experience in Redis.`,
 };
 let skillsData = [
+  pythonSkill,
   javaSkill,
   javascriptSkill,
   reactSkill,

@@ -22,7 +22,7 @@ const NavBar = () => {
           >
             {/* replace below link with the link of your resume */}
             <a
-              href="https://abhijeet-portfolio-personal-build-bucket.s3.ap-south-1.amazonaws.com/public/Abhijeet+-+ATS+Resume+23+Sept+2024.pdf"
+              href="https://abhijeet-portfolio-personal-build-bucket.s3.ap-south-1.amazonaws.com/public/Abhijeet+Mishra+Resume+CP.pdf"
               target="_blank"
             >
               Resume
